@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vintable.Application\Vintable.Application.csproj" />
+    <ProjectReference Include="..\Vintable.Infrastructure\Vintable.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+<TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
